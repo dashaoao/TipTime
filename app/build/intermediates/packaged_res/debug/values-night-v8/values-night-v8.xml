@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Tips" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/mint_light</item>
+        <item name="colorPrimaryVariant">@color/mint_dark</item>
+        <item name="colorOnPrimary">@color/swamp</item>
+        
+        <item name="colorSecondary">@color/cherry_light</item>
+        <item name="colorSecondaryVariant">@color/cherry_light</item>
+        <item name="colorOnSecondary">@color/dark_crimson</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="colorError">@color/error_light</item>
+        <item name="colorOutline">@color/outline</item>
+        
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        
+        <item name="radioButtonStyle">@style/Widget.Tips.CompoundButton.CheckBox</item>
+        
+        <item name="switchStyle">@style/Widget.Tips.CompoundButton.Switch</item>
+    </style>
+</resources>

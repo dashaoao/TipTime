@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cherry">#c25b7c</color>
+    <color name="cherry_dark">#95506b</color>
+    <color name="cherry_light">#d86d93</color>
+    <color name="dark_crimson">#600c30</color>
+    <color name="error_dark">#ba1a1a</color>
+    <color name="error_light">#ffb4ab</color>
+    <color name="ic_launcher_background">#55AB8D</color>
+    <color name="mint">#55AB8D</color>
+    <color name="mint_dark">#428f70</color>
+    <color name="mint_light">#92cfba</color>
+    <color name="outline">#707974</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="swamp">#003829</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="min_text_height">48dp</dimen>
+    <string name="app_name">Tips</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="desc">Description…</string>
+    <string name="option_eighteen_percent">Good (18%)</string>
+    <string name="option_fifteen_percent">Okay (15%)</string>
+    <string name="option_twenty_percent">Amazing (20%)</string>
+    <string name="round_up_switch">Round up tip?</string>
+    <string name="service_question">How was the service?</string>
+    <string name="tip_result">Tip Amount: %s</string>
+    <style name="Theme.Tips" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/mint</item>
+        <item name="colorPrimaryVariant">@color/mint_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/cherry_light</item>
+        <item name="colorSecondaryVariant">@color/cherry_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOutline">@color/outline</item>
+        
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        
+        <item name="radioButtonStyle">@style/Widget.Tips.CompoundButton.CheckBox</item>
+        
+        <item name="switchStyle">@style/Widget.Tips.CompoundButton.Switch</item>
+    </style>
+    <style name="Widget.Tips.CompoundButton.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="Widget.Tips.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="minHeight">@dimen/min_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:trackTint">@color/swamp</item>
+    </style>
+    <style name="Widget.Tips.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="minHeight">@dimen/min_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tips" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mint_light</item>
+        <item name="colorPrimaryVariant">@color/mint_dark</item>
+        <item name="colorOnPrimary">@color/swamp</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cherry_light</item>
+        <item name="colorSecondaryVariant">@color/cherry_light</item>
+        <item name="colorOnSecondary">@color/dark_crimson</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorError">@color/error_light</item>
+        <item name="colorOutline">@color/outline</item>
+        <!-- Text input fields -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Radio buttons -->
+        <item name="radioButtonStyle">@style/Widget.Tips.CompoundButton.CheckBox</item>
+        <!-- Switches -->
+        <item name="switchStyle">@style/Widget.Tips.CompoundButton.Switch</item>
+    </style>
+</resources>
