@@ -17,7 +17,7 @@
         <!-- Text input fields -->
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
         <!-- Radio buttons -->
-        <item name="radioButtonStyle">@style/Widget.Tips.CompoundButton.CheckBox</item>
+        <item name="radioButtonStyle">@style/Widget.Tips.CompoundButton.RadioButton</item>
         <!-- Switches -->
         <item name="switchStyle">@style/Widget.Tips.CompoundButton.Switch</item>
     </style>

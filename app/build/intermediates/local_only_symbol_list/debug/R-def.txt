@@ -29,10 +29,7 @@ drawable ic_store
 id calculate_button
 id cost_of_service
 id cost_of_service_edit_text
-id desc
-id desc_edit_text
 id icon_cost_of_service
-id icon_desc
 id icon_round_up_switch
 id icon_service_question
 id option_eighteen_percent
@@ -56,7 +53,7 @@ string round_up_switch
 string service_question
 string tip_result
 style Theme.Tips
-style Widget.Tips.CompoundButton.CheckBox
+style Widget.Tips.CompoundButton.RadioButton
 style Widget.Tips.CompoundButton.Switch
 style Widget.Tips.TextView
 xml backup_rules

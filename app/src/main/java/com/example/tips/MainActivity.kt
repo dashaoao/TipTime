@@ -26,26 +26,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip() {
-//        val cost = binding.costOfServiceEditText.text.toString().toDoubleOrNull()
-//        if (cost == null) {
-//            binding.tipResult.text = ""
-//            return
-//        }
+        val cost = binding.costOfServiceEditText.text.toString().toDoubleOrNull()
+        if (cost == null) {
+            binding.tipResult.text = ""
+            return
+        }
 
-//        val tipPercentage = when (binding.tipOptions.checkedRadioButtonId) {
-//            R.id.option_twenty_percent -> 0.2
-//            R.id.option_eighteen_percent -> 0.18
-//            else -> 0.15
-//        }
-
-        val cost = binding.costOfServiceEditText.text.toString().toDouble()
-
-        val tipPercentage = if (binding.optionTwentyPercent.isChecked){
-            0.2
-        } else if (binding.optionEighteenPercent.isChecked) {
-            0.18
-        } else {
-            0.15
+        val tipPercentage = when (binding.tipOptions.checkedRadioButtonId) {
+            R.id.option_twenty_percent -> 0.2
+            R.id.option_eighteen_percent -> 0.18
+            else -> 0.15
         }
 
         var amount = cost * tipPercentage
@@ -55,7 +45,6 @@ class MainActivity : AppCompatActivity() {
 
         val formattedTip = NumberFormat.getCurrencyInstance().format(amount)
         binding.tipResult.text = getString(R.string.tip_result, formattedTip)
-        binding.costOfServiceEditText.text?.clear()
     }
 
     private fun handleKeyEvent(view: View, keyCode: Int): Boolean {

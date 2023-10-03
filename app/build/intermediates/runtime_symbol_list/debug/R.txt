@@ -3171,8 +3171,6 @@ int id decor_content_parent 0x7f080090
 int id default_activity_button 0x7f080091
 int id deltaRelative 0x7f080092
 int id dependency_ordering 0x7f080093
-int id desc 0x7f080094
-int id desc_edit_text 0x7f080095
 int id design_bottom_sheet 0x7f080096
 int id design_menu_item_action_area 0x7f080097
 int id design_menu_item_action_area_stub 0x7f080098
@@ -3243,7 +3241,6 @@ int id honorRequest 0x7f0800d8
 int id horizontal_only 0x7f0800d9
 int id icon 0x7f0800da
 int id icon_cost_of_service 0x7f0800db
-int id icon_desc 0x7f0800dc
 int id icon_group 0x7f0800dd
 int id icon_round_up_switch 0x7f0800de
 int id icon_service_question 0x7f0800df
@@ -5000,7 +4997,7 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x7f10044a
 int style Widget_MaterialComponents_Toolbar_Surface 0x7f10044b
 int style Widget_MaterialComponents_Tooltip 0x7f10044c
 int style Widget_Support_CoordinatorLayout 0x7f10044d
-int style Widget_Tips_CompoundButton_CheckBox 0x7f10044e
+int style Widget_Tips_CompoundButton_RadioButton 0x7f10044e
 int style Widget_Tips_CompoundButton_Switch 0x7f10044f
 int style Widget_Tips_TextView 0x7f100450
 int[] styleable ActionBar { 0x7f030044, 0x7f03004b, 0x7f03004c, 0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 0x7f030139, 0x7f030160, 0x7f030173, 0x7f030174, 0x7f030193, 0x7f030209, 0x7f030211, 0x7f030217, 0x7f030218, 0x7f03021c, 0x7f03022d, 0x7f030243, 0x7f0302be, 0x7f03033e, 0x7f03036f, 0x7f030376, 0x7f030377, 0x7f0303ed, 0x7f0303f1, 0x7f030475, 0x7f030483 }

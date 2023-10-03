@@ -3172,8 +3172,6 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id desc
-id desc_edit_text
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3244,7 +3242,6 @@ id honorRequest
 id horizontal_only
 id icon
 id icon_cost_of_service
-id icon_desc
 id icon_group
 id icon_round_up_switch
 id icon_service_question
@@ -5001,7 +4998,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
-style Widget_Tips_CompoundButton_CheckBox
+style Widget_Tips_CompoundButton_RadioButton
 style Widget_Tips_CompoundButton_Switch
 style Widget_Tips_TextView
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle

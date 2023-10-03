@@ -34,34 +34,7 @@
                 android:id="@+id/cost_of_service_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <ImageView
-            android:id="@+id/icon_desc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:importantForAccessibility="no"
-            app:layout_constraintBottom_toBottomOf="@id/desc"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/desc"
-            app:srcCompat="@drawable/ic_desc" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/desc"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="@string/desc"
-            app:layout_constraintStart_toEndOf="@id/icon_cost_of_service"
-            app:layout_constraintTop_toBottomOf="@+id/cost_of_service">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/desc_edit_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="numberDecimal" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -82,39 +55,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/service_question"
-            app:layout_constraintStart_toStartOf="@id/desc"
-            app:layout_constraintTop_toBottomOf="@id/desc" />
+            app:layout_constraintStart_toStartOf="@id/cost_of_service"
+            app:layout_constraintTop_toBottomOf="@id/cost_of_service" />
 
-        <LinearLayout
+        <RadioGroup
             android:id="@+id/tip_options"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checkedButton="@id/option_twenty_percent"
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="@id/service_question"
             app:layout_constraintTop_toBottomOf="@id/service_question">
 
-            <CheckBox
+            <RadioButton
                 android:id="@+id/option_twenty_percent"
-                style="@style/Widget.Tips.CompoundButton.CheckBox"
+                style="@style/Widget.Tips.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/option_twenty_percent"/>
+                android:text="@string/option_twenty_percent"
+                android:clickable="true"/>
 
-            <CheckBox
+            <RadioButton
                 android:id="@+id/option_eighteen_percent"
-                style="@style/Widget.Tips.CompoundButton.CheckBox"
+                style="@style/Widget.Tips.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/option_eighteen_percent"/>
+                android:text="@string/option_eighteen_percent"
+                android:clickable="true"/>
 
-            <CheckBox
+            <RadioButton
                 android:id="@+id/option_fifteen_percent"
-                style="@style/Widget.Tips.CompoundButton.CheckBox"
+                style="@style/Widget.Tips.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/option_fifteen_percent"/>
+                android:text="@string/option_fifteen_percent"
+                android:clickable="true"/>
 
-        </LinearLayout>
+        </RadioGroup>
 
         <ImageView
             android:id="@+id/icon_round_up_switch"
